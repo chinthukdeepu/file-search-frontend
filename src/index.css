@@ -1,0 +1,23 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200&family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+
+.card {
+  @apply rounded shadow bg-gray-100 overflow-hidden relative cursor-pointer;
+}
+
+.card .badge {
+  @apply bg-green-600 px-2 rounded-full absolute top-0 text-xs uppercase font-bold;
+}
+
+.btn {
+  @apply px-2 py-1 bg-gray-900 border border-gray-300 hover:bg-gray-600 rounded;
+}
+
+.input {
+  @apply px-2 py-1;
+}
